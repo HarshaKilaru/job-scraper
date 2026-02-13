@@ -3,9 +3,12 @@ import os
 from datetime import datetime
 
 # Grab your secret keys from GitHub environment
-WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK')
-API_KEY = os.getenv('GOOGLE_API_KEY')
-CX = os.getenv('GOOGLE_CX')
+WEBHOOK_URL = os.getenv('https://discord.com/api/webhooks/1471665117505650780/yKyTfjWGb-zVFwdNgy4WAZOjRGB5jO6SEB237aWCch-tHuHLtodeRJ9YEIaMHKxlajRw')
+API_KEY = os.getenv('AIzaSyA3AUpZAajjgoV69-5ifxJAECMM5kZrqfA')
+CX = os.getenv('<script async src="https://cse.google.com/cse.js?cx=36373a8cb3b41415f">
+</script>
+<div class="gcse-search"></div>
+')
 
 def find_jobs():
     # Tailored query for 0-5 years exp in the US
